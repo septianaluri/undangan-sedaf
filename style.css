@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Georgia, serif;
+    background:#f8f1e7;
+    color:#4a2c2a;
+}
+
+.cover{
+    background:url('assets/img/bg-jawa.jpg') center/cover;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.45);
+    padding:40px;
+    border-radius:20px;
+    color:white;
+}
+
+.overlay h1{
+    font-size:55px;
+    margin:15px 0;
+}
+
+.overlay h3{
+    letter-spacing:3px;
+}
+
+button{
+    margin-top:20px;
+    padding:14px 28px;
+    border:none;
+    border-radius:10px;
+    background:#c59d5f;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.main{
+    display:none;
+    padding:30px;
+}
+
+.box{
+    background:white;
+    padding:30px;
+    margin:20px auto;
+    max-width:700px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.box h2{
+    margin-bottom:15px;
+    color:#8b5e3c;
+}
+
+iframe{
+    width:100%;
+    height:300px;
+    border:none;
+    border-radius:15px;
+}
+
+#countdown{
+    font-size:28px;
+    font-weight:bold;
+}
+.foto{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    margin:15px 0;
+    border:6px solid #d4af37;
+}
+.ornamen{
+    position:fixed;
+    width:120px;
+    z-index:99;
+    opacity:0.8;
+}
+
+.kiri{
+    top:0;
+    left:0;
+}
+
+.kanan{
+    top:0;
+    right:0;
+    transform:scaleX(-1);
+}
+.wa-btn{
+  display:block;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  padding:14px;
+  border-radius:14px;
+  margin-top:12px;
+  font-weight:bold;
+}
+.map-btn{
+  display:block;
+  margin-top:12px;
+  background:#8b5e3c;
+  color:white;
+  text-decoration:none;
+  padding:14px;
+  border-radius:14px;
+}
